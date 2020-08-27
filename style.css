@@ -1,0 +1,115 @@
+.b3, .b2, .b1 {
+  color: yellow;
+  background-color: white;
+  padding: 20px;
+  margin: 0px auto;
+  width: 76.72%;
+}
+
+.b3, .b2, .b1 {
+  border: 2px solid black;
+}
+
+.texto .textito h1 {
+  text-decoration: underline;
+}
+
+.b2 {
+  color: yellowgreen;
+}
+
+.b3 {
+  padding: 30px;
+  border: 10px dashed red;
+}
+
+body {
+  background-color: #1b8b1b;
+}
+
+h1 {
+  color: white;
+  border-radius: 20px;
+  border: 2px gray;
+  box-shadow: 5px 5px 5px gray;
+  background-color: gray;
+  text-align: center;
+}
+
+p {
+  font-family: "Comic Sans MS";
+}
+
+.texto {
+  width: 80%;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.texto h1 {
+  color: pink;
+  border-radius: 10px;
+  border: 3px brown;
+  box-shadow: 3px 3px 3px 3px brown;
+}
+.texto h2 {
+  color: yellow;
+}
+.texto .p {
+  margin: 100px;
+  background-color: #1b8b1b;
+}
+.texto .textito {
+  width: 30%;
+  margin: 0px auto;
+  border: 3px black solid;
+  text-align: center;
+}
+.texto .textito h1 {
+  color: skyblue;
+  border-radius: 10px;
+  border: 3px brown;
+  box-shadow: 3px 3px 3px 3px brown;
+}
+
+h1 {
+  text-shadow: 5px 5px 5px pink;
+}
+
+.lista ul li:nth-child(1) {
+  font-size: 10px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.lista ul li:nth-child(2) {
+  font-size: 20px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.lista ul li:nth-child(3) {
+  font-size: 30px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.lista ul li:nth-child(4) {
+  font-size: 40px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.lista ul li:nth-child(5) {
+  font-size: 50px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

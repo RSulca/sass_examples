@@ -1,0 +1,86 @@
+$fondo: rgb(27, 139, 27);
+$tipo-letra: "Comic Sans MS"; 
+$color-basico: white;
+
+
+@mixin caja(){
+    border-radius: 10px;
+    border: 3px brown;
+    box-shadow: 3px 3px 3px 3px brown;
+} 
+
+@mixin cajaDato($border, $radius, $color, $shadow){
+    border-radius: $radius;
+    border: $border $color;
+    box-shadow: $shadow $shadow $shadow $color;
+    background-color: $color;
+    text-align: center;
+}
+
+body {
+    background-color: $fondo;
+}
+
+
+
+h1 {
+    color: white;
+    @include cajaDato(2px,20px,gray,5px);
+}
+
+p {
+    font-family: $tipo-letra;
+} 
+
+.texto {
+    width: 80%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    h1 {
+        color: pink;
+        @include caja();
+    }
+
+    h2 {
+        color: yellow;
+    }
+
+    .p {
+        margin: 100px;
+        background-color: $fondo;
+    }
+
+    .textito {
+        width: 30%;
+        margin: 0px auto;
+        border: 3px black solid;
+        text-align: center;
+        h1{
+            color: skyblue;
+            @include caja();
+        }
+    }
+
+}
+
+h1 {
+    @if $color-basico == white {
+        text-shadow: 5px 5px 5px pink;
+    }@else {
+        text-transform: uppercase;
+    }
+}
+
+$con: 1;
+
+@for $con from 1 through 5 {
+    .lista ul li:nth-child(#{$con}){
+        font-size: $con * 10px;
+        width: 50%;
+        margin: 0px auto;
+        text-align: center;
+    }
+}

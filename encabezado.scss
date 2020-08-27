@@ -1,0 +1,38 @@
+%estandar {
+    @extend %little;
+    color: yellow;
+    background-color: white;
+    padding: 20px;
+    margin: 0px auto;
+    width: 959px / 1250px * 100% ;
+}   
+
+%little {
+    border: 2px solid black;
+}
+
+
+.texto{
+    .textito{
+        h1 {
+            text-decoration: underline;
+        }
+    }
+}
+
+.b1 {
+    @extend %estandar;
+}
+
+.b2 {
+    @extend %estandar;
+    color: yellowgreen;
+}
+
+.b3 {
+    @extend %estandar;
+    padding: 30px;
+    border: 10px dashed red;
+}
+
+
